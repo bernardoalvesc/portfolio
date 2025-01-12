@@ -22,7 +22,7 @@ function About() {
           performance, estética e usabilidade para transformar ideias em experiências digitais marcantes.
         </p>
         <a
-          href="public\curriculo bernardo alves.pdf"
+          href="/curriculo.pdf"
           download
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 inline-flex items-center"
         >
