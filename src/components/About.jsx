@@ -9,7 +9,7 @@ function About() {
         <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
           <Typewriter
             options={{
-              strings: ['Olá, me chamo Bernardo Alves'],
+              strings: ['Olá, me chamo Bernardo Alves Cardoso'],
               autoStart: true,
               loop: true,
             }}
