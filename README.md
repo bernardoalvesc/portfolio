@@ -8,11 +8,9 @@ Este é o repositório do meu portfólio pessoal, onde apresento meus projetos, 
 
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Executar o Projeto](#como-executar-o-projeto)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Contato](#contato)
-- [Licença](#licença)
 
 ---
 
@@ -27,18 +25,7 @@ Este portfólio tem como objetivo centralizar e apresentar de forma organizada o
 - **Linguagens:** HTML, CSS, JavaScript
 - **Frameworks/Libraries:** React, Tailwind CSS
 - **Ferramentas de Build:** Vite
-- **Gerenciador de Pacotes:** PNPM
-
----
-
-## 🗂️ Estrutura do Projeto
-src/
-├── assets/          # Imagens e outros arquivos estáticos
-├── components/      # Componentes reutilizáveis
-├── pages/           # Páginas principais do portfólio
-├── styles/          # Estilos globais e utilitários
-├── App.jsx          # Componente raiz
-└── main.jsx         # Ponto de entrada do aplicativo
+- **Gerenciador de Pacotes:** NPM
 
 ---
 
