@@ -41,6 +41,6 @@ Este portfólio tem como objetivo centralizar e apresentar de forma organizada o
 ## 👤 Contato
 Sinta-se à vontade para entrar em contato comigo:
 
--**LinkedIn:** linkedin.com/in/bernardoalvesdev
--**E-mail:** bernardoalvesdev@gmail.com
--**Portfólio:** bernardoalvesdev.vercel.app
+- **LinkedIn:** linkedin.com/in/bernardoalvesdev
+- **E-mail:** bernardoalvesdev@gmail.com
+- **Portfólio:** bernardoalvesdev.vercel.app
