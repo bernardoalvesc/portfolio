@@ -6,11 +6,11 @@ Este é o repositório do meu portfólio pessoal, onde apresento meus projetos, 
 
 ## 📋 Índice
 
-- [Sobre](#sobre)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Contato](#contato)
+- Sobre
+- Tecnologias Utilizadas
+- Estrutura do Projeto
+- Funcionalidades
+- Contato
 
 ---
 
