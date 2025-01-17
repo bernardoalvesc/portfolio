@@ -8,7 +8,6 @@ Este é o repositório do meu portfólio pessoal, onde apresento meus projetos, 
 
 - Sobre
 - Tecnologias Utilizadas
-- Estrutura do Projeto
 - Funcionalidades
 - Contato
 
