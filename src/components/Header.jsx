@@ -24,7 +24,7 @@ function Header() {
         <h1 className="text-2xl font-bold text-white">Bernardo Alves</h1>
         <nav>
           <ul className="flex space-x-6">
-            {['about', 'certifications', 'projects', 'skills', 'contact'].map((item) => (
+            {['sobre mim', 'certificações', 'projetos', 'skills', 'contato'].map((item) => (
               <li key={item}>
                 <button
                   onClick={() => scrollTo(item)} 
