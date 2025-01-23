@@ -23,7 +23,7 @@ const certifications = [
     title: "Curso completo em Cyber Security",
     organization: "Udemy",
     date: "Setembro/24",
-    link: "ude.my/UC-4f569dc4-2d9f-4538-99a0-0bf704a9b9e6/",
+    link: "https://www.udemy.com/certificate/UC-4f569dc4-2d9f-4538-99a0-0bf704a9b9e6/",
   },
 ];
 
