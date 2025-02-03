@@ -20,10 +20,10 @@ const certifications = [
     link: "https://cursos.alura.com.br/certificate/091b2ea8-0302-4c29-8728-f03f9cc63a32",
   },
   {
-    title: "Curso completo em Cyber Security",
-    organization: "Udemy",
-    date: "Setembro/24",
-    link: "https://www.udemy.com/certificate/UC-4f569dc4-2d9f-4538-99a0-0bf704a9b9e6/",
+    title: "React: migrando para TypeScript",
+    organization: "Alura",
+    date: "Janeiro/25",
+    link: "https://cursos.alura.com.br/certificate/db304470-43b5-4041-9e7e-c94b9ae69394",
   },
 ];
 
