@@ -16,7 +16,7 @@ function About() {
           />
         </h1>
         <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-300">
-          Sou um desenvolvedor Front-End apaixonado por tecnologia e inovação, com experiência na criação de interfaces modernas,
+          Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência na criação de interfaces modernas,
           responsivas e funcionais utilizando ReactJS, Tailwind CSS e TypeScript. Bacharelando em Engenharia de Software pela
           Universidade Católica de Brasília, tenho interesse em soluções criativas e desafios técnicos no desenvolvimento web. Meu foco é combinar
           performance, estética e usabilidade para transformar ideias em experiências digitais marcantes.
