@@ -18,19 +18,27 @@ function Header() {
     }
   };
 
+  const sections = [
+    { id: 'about', label: 'Sobre' },
+    { id: 'certifications', label: 'Certificações' },
+    { id: 'projects', label: 'Projetos' },
+    { id: 'skills', label: 'Habilidades' },
+    { id: 'contact', label: 'Contato' },
+  ];
+
   return (
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900 shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-white">Bernardo Alves</h1>
         <nav>
           <ul className="flex space-x-6">
-            {['about', 'certifications', 'projects', 'skills', 'contact'].map((item) => (
-              <li key={item}>
+            {sections.map(({ id, label }) => (
+              <li key={id}>
                 <button
-                  onClick={() => scrollTo(item)} 
-                  className="text-white hover:text-blue-400 transition duration-300 capitalize"
+                  onClick={() => scrollTo(id)} 
+                  className="text-white hover:text-blue-400 transition duration-300"
                 >
-                  {item.charAt(0).toUpperCase() + item.slice(1)} 
+                  {label}
                 </button>
               </li>
             ))}
@@ -42,4 +50,5 @@ function Header() {
 }
 
 export default Header;
+
 
