@@ -24,11 +24,11 @@ const projects = [
     demo: "https://studio-lumos.vercel.app"
   },
   {
-    title: "Gerenciador de Tarefas (Task Manager)",
-    description: "Um projeto simples feito apenas utilizando HTML, CSS e JavaScript, foi um dos primeiros projetos que desenvolvi. Ele tem uma funcionalidade bem simples, servindo para o usuário organizar suas tarefas por prioridade.",
-    image: "/images/task.png",  
-    github: "https://github.com/bernardoalvesc/painel-de-controle-de-tarefas",
-    demo: "https://painel-de-controle-de-tarefas.vercel.app"
+    title: "EspertoFit",
+    description: "Uma aplicação completa feita em ReactJS + Typescript, focada em ajudar a comunidade maromba e montar treinamentos. O projeto conta uma interface intuitiva e responsiva.",
+    image: "/images/espertofit.png",  
+    github: "https://github.com/bernardoalvesc/espertofit",
+    demo: "https://espertofit.vercel.app"
   }
 ];
 
