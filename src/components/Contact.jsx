@@ -29,7 +29,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-900">
+    <section id="contact" className="py-20 bg-gray-800">
       <div className="container mx-auto px-4">
         <h2 
           className="text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600" 
@@ -37,7 +37,7 @@ function Contact() {
           Entre em Contato
         </h2>
         <div 
-          className="max-w-md mx-auto bg-gray-800 shadow-lg rounded-lg p-8" 
+          className="max-w-md mx-auto bg-gray-700 shadow-lg rounded-lg p-8" 
           data-aos="fade-up">
           <form 
             onSubmit={handleSubmit} 
@@ -97,3 +97,4 @@ function Contact() {
 }
 
 export default Contact;
+
