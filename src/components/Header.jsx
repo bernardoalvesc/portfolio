@@ -32,7 +32,7 @@ function Header() {
   return (
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900 shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-white">Bernardo Alves</h1>
+        <h1 className="text-2xl font-bold text-white">🖥️ Bernardo Alves</h1>
 
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
@@ -55,9 +55,9 @@ function Header() {
           </button>
         </div>
       </div>
-
+      
       {menuOpen && (
-        <div className="md:hidden bg-gray-900 px-6 py-4">
+        <div className="md:hidden px-6 py-4 bg-transparent animate-fade-in-down">
           <ul className="flex flex-col space-y-4">
             {sections.map(({ id, label }) => (
               <li key={id}>
@@ -77,3 +77,4 @@ function Header() {
 }
 
 export default Header;
+
