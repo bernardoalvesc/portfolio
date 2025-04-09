@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -17,7 +16,7 @@ function Header() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setMenuOpen(false); 
+      setMenuOpen(false); // Fecha o menu mobile ao clicar
     }
   };
 
@@ -30,11 +29,16 @@ function Header() {
   ];
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900 shadow-lg' : 'bg-transparent'}`}>
+    <header
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-gray-900 shadow-lg' : 'bg-transparent'
+      }`}
+    >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-white">🖥️ Bernardo Alves</h1>
+        <h1 className="text-2xl font-bold text-white">Bernardo Alves 💻</h1>
 
-        <nav className="hidden md:flex">
+        {/* Menu desktop */}
+        <nav className="hidden md:block">
           <ul className="flex space-x-6">
             {sections.map(({ id, label }) => (
               <li key={id}>
@@ -49,21 +53,24 @@ function Header() {
           </ul>
         </nav>
 
-        <div className="md:hidden">
-          <button onClick={() => setMenuOpen(!menuOpen)} className="text-white">
-            {menuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
-        </div>
+        {/* Botão de menu mobile */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden text-white focus:outline-none"
+        >
+          {menuOpen ? '✖' : '☰'}
+        </button>
       </div>
-      
+
+      {/* Menu mobile */}
       {menuOpen && (
-        <div className="md:hidden px-6 py-4 bg-transparent animate-fade-in-down">
-          <ul className="flex flex-col space-y-4">
+        <div className="md:hidden px-6 py-4 bg-black/60 backdrop-blur-sm animate-fade-in-down rounded-b-lg shadow-md">
+          <ul className="space-y-4">
             {sections.map(({ id, label }) => (
               <li key={id}>
                 <button
                   onClick={() => scrollTo(id)}
-                  className="text-white text-lg hover:text-blue-400 transition duration-300 w-full text-left"
+                  className="text-white block w-full text-left hover:text-blue-400 transition duration-300"
                 >
                   {label}
                 </button>
