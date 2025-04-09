@@ -17,7 +17,7 @@ function Header() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setMenuOpen(false); // fecha o menu ao clicar
+      setMenuOpen(false); 
     }
   };
 
@@ -34,7 +34,6 @@ function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-white">Bernardo Alves</h1>
 
-        {/* Menu Desktop */}
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
             {sections.map(({ id, label }) => (
@@ -50,7 +49,6 @@ function Header() {
           </ul>
         </nav>
 
-        {/* Ícone de menu mobile */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-white">
             {menuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -58,7 +56,6 @@ function Header() {
         </div>
       </div>
 
-      {/* Menu Mobile */}
       {menuOpen && (
         <div className="md:hidden bg-gray-900 px-6 py-4">
           <ul className="flex flex-col space-y-4">
