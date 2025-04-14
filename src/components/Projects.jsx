@@ -30,6 +30,20 @@ const projects = [
     github: "https://github.com/bernardoalvesc/espertofit",
     demo: "https://espertofit.vercel.app"
   }
+{
+    title: "Painel de Controle de Tarefas",
+    description: "Este projeto é uma aplicação web simples para gerenciar tarefas, permitindo que os usuários adicionem, editem e excluam tarefas conforme necessário.",
+    image: "/images/task.png",  
+    github: "https://github.com/bernardoalvesc/painel-de-controle-de-tarefas",
+    demo: "painel-de-controle-de-tarefas.vercel.app"
+  }
+{
+    title: "StudyMind",
+    description: "Esta é um projeto de uma aplicação web desenvolvida com ReactJS + TypeScript. Consiste em uma aplicação de organização de rotinas de estudo personalizáveis. Foi feito com TailwindCSS e ReactJS + TypeScript",
+    image: "/images/study.png",  
+    github: "https://github.com/bernardoalvesc/espertofit",
+    demo: "studymind.vercel.app"
+  }
 ];
 
 function Projects() {
