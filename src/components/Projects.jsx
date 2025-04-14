@@ -38,7 +38,7 @@ const projects = [
     title: "Painel de Controle de Tarefas",
     description:
       "Este projeto é uma aplicação web simples para gerenciar tarefas, permitindo que os usuários adicionem, editem e excluam tarefas conforme necessário.",
-    image: "/images/task.png",
+    image: "/images/task.jpeg",
     github: "https://github.com/bernardoalvesc/painel-de-controle-de-tarefas",
     demo: "https://painel-de-controle-de-tarefas.vercel.app",
   },
@@ -46,7 +46,7 @@ const projects = [
     title: "StudyMind",
     description:
       "Esta é uma aplicação web desenvolvida com ReactJS + TypeScript. Consiste em uma plataforma de organização de rotinas de estudo personalizáveis. Foi feita com TailwindCSS e possui um design responsivo.",
-    image: "/images/study.png",
+    image: "/images/study.jpeg",
     github: "https://github.com/bernardoalvesc/studymind",
     demo: "https://studymind.vercel.app",
   },
