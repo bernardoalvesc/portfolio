@@ -1,5 +1,12 @@
 import React from 'react';
-import { Heading5Icon as Html5, CodepenIcon as Css3, FileJson, Wind, TypeIcon as Typescript, CodepenIcon as ReactLogo } from 'lucide-react';
+import {
+  Heading5Icon as Html5,
+  Palette as Css3,
+  FileJson,
+  Wind,
+  TypeIcon as Typescript,
+  Atom as ReactLogo
+} from 'lucide-react';
 
 const skills = [
   { name: "HTML", icon: Html5, color: "#E34F26" },
@@ -14,7 +21,9 @@ function Skills() {
   return (
     <section id="skills" className="py-20 bg-gray-800">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600" data-aos="fade-up">Minhas Habilidades</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600" data-aos="fade-up">
+          Minhas Habilidades
+        </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center bg-gray-700 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
@@ -29,3 +38,4 @@ function Skills() {
 }
 
 export default Skills;
+
